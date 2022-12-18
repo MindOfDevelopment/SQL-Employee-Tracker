@@ -7,7 +7,7 @@ const mainMenuQuestions = [
       { value: "view-departments", name: "view all departments" },
       { value: "view-roles", name: "view all roles" },
       { value: "view-employees", name: "view all employees" },
-      { value: "add-department", name: "add a depaertment" },
+      { value: "add-department", name: "add a department" },
       { value: "add-role", name: "add a role" },
       { value: "add-employee", name: "add an employee" },
       { value: "update-role", name: "update an employee role" },
@@ -50,7 +50,11 @@ const addEmployeeQuestions = [
     name: "first_name",
     message: "Enter the First Name of the Employee...",
   },
-
+  {
+    type: "input",
+    name: "last_name",
+    message: "Enter the Last Name of the Employee...",
+  },
   {
     type: "list",
     name: "role_id",
